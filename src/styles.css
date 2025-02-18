@@ -1,0 +1,147 @@
+/* General styles for the App container */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the buttons */
+  button {
+    background-color: #00796b; /* Dark teal background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  button:active {
+    background-color: #003d33; /* Even darker teal when clicked */
+  }
+  
+  /* General styles for the App container */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light grayish-blue background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the buttons */
+  button {
+    background-color: #0288d1; /* Blue background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #01579b; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  button:active {
+    background-color: #003c8f; /* Even darker blue when clicked */
+  }
+  
+  /* Common styles for question forms */
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for forms */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for Java, SQL, and Communication forms */
+  .Javaclass, .Sqlclass, .Communicationclass {
+    margin-top: 20px;
+  }
+  
+  /* Styles for form questions and options */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+    text-align: right; /* Align questions to the left */
+  }
+  
+  .question label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .question .options {
+    margin-left: 0; /* Align options to the left */
+  }
+  
+  .question .options label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    text-align: left; /* Align options to the left */
+  }
+  
+  /* Style for submit button */
+  input[type='submit'] {
+    background-color: #0288d1; /* Blue background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #01579b; /* Darker blue on hover */
+  }
+  
+  input[type='submit']:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  input[type='submit']:active {
+    background-color: #003c8f; /* Even darker blue when clicked */
+  }
+  
